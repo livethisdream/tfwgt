@@ -1,0 +1,997 @@
+{Error using <a href="matlab:helpUtils.errorDocCallback('fseek')" style="font-weight:bold">fseek</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('fileformat5', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\functions\fileformat5.m', 19)" style="font-weight:bold">fileformat5</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\functions\fileformat5.m',19,0)">line 19</a>)
+fseek(fid,0,'eof');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('uniaxial_full', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m', 383)" style="font-weight:bold">uniaxial_full</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m',383,0)">line 383</a>)
+    [A,svarnames]=fileformat5(inputFile);
+} 
+uniaxial_full
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Material is: white_honeycomb
+
+dmat =
+
+    0.0065
+
+(in m)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+Now processing point 1/25
+Frequency = 8200000000GHz
+Initial et =2.9-0.05i
+Initial ez =2.9-0.05i
+Initial mut =1-0.05i
+Initial muz =1-0.05i
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.489702                          4.96
+     1         10        0.301833       0.892724           1.49            0
+     2         15        0.118177        0.85579          0.171            0
+     3         20       0.0373049       0.869974            2.1            0
+     4         25       0.0225562       0.265826         0.0117            0
+     5         30       0.0196223        0.24277          0.178            0
+     6         35       0.0193171      0.0917346        0.00792            0
+     7         40       0.0191719      0.0892277         0.0626            0
+     8         45       0.0191719      0.0191307         0.0626            0
+     9         50       0.0191045     0.00478268         0.0344            0
+    10         55       0.0191045     0.00956536         0.0344            0
+    11         60        0.019089     0.00239134        0.00925            0
+    12         65       0.0190856     0.00478268        0.00224            0
+    13         70       0.0190829     0.00119567        0.00177            0
+    14         75       0.0190829     0.00119567        0.00177            0
+    15         80       0.0190829    0.000298917        0.00177            0
+    16         85       0.0190828    7.47294e-05       0.000889            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.663088e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 8200000000GHz
+et = 1.8496-0.050886i
+ez = 2.0857-1.5865e-05i
+mut = 1
+muz = 1
+Time to solution = 149.3729s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 2/25
+Frequency = 8375000000GHz
+Initial et =1.8496-0.050886i
+Initial ez =2.0857-1.5865e-05i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0195953                        0.0285
+     1         10       0.0195419       0.041723         0.0213            0
+     2         15       0.0195419      0.0752945         0.0213            0
+     3         20       0.0194133      0.0188236         0.0072            0
+     4         25       0.0194112    0.000744747        0.00191            0
+     5         30       0.0194112      0.0352509        0.00191            0
+     6         35       0.0194112     0.00881273        0.00191            0
+     7         40       0.0194112     0.00220318        0.00191            0
+     8         45       0.0194101    0.000550795        0.00259            0
+     9         50       0.0194101     0.00110159        0.00259            0
+    10         55       0.0194098    0.000275398       0.000723            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',3.401714e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 8375000000GHz
+et = 1.8586-0.052284i
+ez = 2.0012-2.3978e-09i
+mut = 1
+muz = 1
+Time to solution = 102.0689s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 3/25
+Frequency = 8550000000GHz
+Initial et =1.8586-0.052284i
+Initial ez =2.0012-2.3978e-09i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0208156                        0.0617
+     1         10       0.0208032      0.0037659        0.00097            0
+     2         15       0.0208032    0.000544707       4.96e-06            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',3.907392e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 8550000000GHz
+et = 1.8543-0.053804i
+ez = 2.0052-1.1626e-13i
+mut = 1
+muz = 1
+Time to solution = 25.2099s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 4/25
+Frequency = 8725000000GHz
+Initial et =1.8543-0.053804i
+Initial ez =2.0052-1.1626e-13i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0231708                        0.0897
+     1         10       0.0230898      0.0286058         0.0125            0
+     2         15       0.0230898       0.285192         0.0125            0
+     3         20       0.0230898       0.071298         0.0125            0
+     4         25       0.0229963      0.0178245         0.0254            0
+     5         30       0.0229963     0.00749571         0.0254            0
+     6         35       0.0229862     0.00187393        0.00393            0
+     7         40       0.0229862     0.00192638        0.00393            0
+     8         45       0.0229862    0.000481595        0.00393            0
+     9         50       0.0229853    0.000120399        0.00314            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.610987e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 8725000000GHz
+et = 1.86-0.056686i
+ez = 1.9535-4.1469e-14i
+mut = 1
+muz = 1
+Time to solution = 88.5053s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 5/25
+Frequency = 8900000000GHz
+Initial et =1.86-0.056686i
+Initial ez =1.9535-4.1469e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0260695                         0.117
+     1         10       0.0246298      0.0234733          0.167            0
+     2         15       0.0244067      0.0414962          0.159            0
+     3         20       0.0244067      0.0051516          0.159            0
+     4         25       0.0243868      0.0012879         0.0108            0
+     5         30       0.0243827      0.0025758        0.00166            0
+     6         35        0.024372      0.0051516         0.0203            0
+     7         40        0.024372     0.00505913         0.0203            0
+     8         45        0.024372     0.00126478         0.0203            0
+     9         50       0.0243706    0.000316195        0.00986            0
+    10         55       0.0243706    0.000632391        0.00986            0
+    11         60       0.0243703    0.000158098        0.00125            0
+    12         65       0.0243703    0.000158098        0.00125            0
+    13         70       0.0243703    3.95244e-05       0.000248            0
+    14         75       0.0243703    3.95244e-05       0.000174            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',1.199955e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 8900000000GHz
+et = 1.8143-0.054706i
+ez = 2.2635-2.9955e-14i
+mut = 1
+muz = 1
+Time to solution = 125.435s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 6/25
+Frequency = 9075000000GHz
+Initial et =1.8143-0.054706i
+Initial ez =2.2635-2.9955e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0266893                         0.124
+     1         10       0.0266288     0.00639844        0.00164            0
+     2         15       0.0266284     0.00109181       6.61e-05            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',4.222431e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 9075000000GHz
+et = 1.8059-0.057883i
+ez = 2.2637-2.2243e-14i
+mut = 1
+muz = 1
+Time to solution = 25.9861s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 7/25
+Frequency = 9250000000GHz
+Initial et =1.8059-0.057883i
+Initial ez =2.2637-2.2243e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0287833                          0.11
+     1         10       0.0287323      0.0261163          0.012            0
+     2         15       0.0287323       0.161756          0.012            0
+     3         20       0.0287323       0.040439          0.012            0
+     4         25       0.0287003      0.0101097         0.0428            0
+     5         30       0.0287003     0.00970451         0.0428            0
+     6         35       0.0287003     0.00242613         0.0428            0
+     7         40       0.0286939    0.000606532         0.0287            0
+     8         45       0.0286939     0.00121306         0.0287            0
+     9         50       0.0286918    0.000303266         0.0186            0
+    10         55       0.0286912    0.000606532        0.00105            0
+    11         60        0.028691    0.000151633       0.000854            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',2.589352e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 9250000000GHz
+et = 1.808-0.061376i
+ez = 2.2195-4.0175e-14i
+mut = 1
+muz = 1
+Time to solution = 96.2895s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 8/25
+Frequency = 9425000000GHz
+Initial et =1.808-0.061376i
+Initial ez =2.2195-4.0175e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0302198                         0.104
+     1         10       0.0302198      0.0135581          0.104            0
+     2         15       0.0302198     0.00338954          0.104            0
+     3         20       0.0302026    0.000847384         0.0293            0
+     4         25       0.0301925     0.00169477        0.00597            0
+     5         30       0.0301806     0.00169477        0.00315            0
+     6         35       0.0301792     0.00338954         0.0278            0
+     7         40       0.0301776    0.000847384        0.00151            0
+     8         45       0.0301765    0.000847384       0.000421            0
+     9         50       0.0301764    0.000847384        0.00512            0
+    10         55       0.0301764    0.000211846        0.00512            0
+    11         60       0.0301763    5.29615e-05        0.00153            0
+    12         65       0.0301763    5.29615e-05        0.00153            0
+    13         70       0.0301763    1.32404e-05       0.000641            0
+    14         75       0.0301763    1.32404e-05       7.94e-05            0
+    15         80       0.0301763    1.32404e-05       5.76e-05            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',1.461994e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 9425000000GHz
+et = 1.8015-0.064135i
+ez = 2.2294-4.2071e-14i
+mut = 1
+muz = 1
+Time to solution = 134.7085s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 9/25
+Frequency = 9600000000GHz
+Initial et =1.8015-0.064135i
+Initial ez =2.2294-4.2071e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0310482                        0.0906
+     1         10       0.0309788      0.0325898         0.0112            0
+     2         15       0.0309667      0.0062453       0.000464            0
+     3         20       0.0309657     0.00702259         0.0043            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.058742e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 9600000000GHz
+et = 1.7873-0.065636i
+ez = 2.3004-2.2222e-14i
+mut = 1
+muz = 1
+Time to solution = 28.8018s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 10/25
+Frequency = 9775000000GHz
+Initial et =1.7873-0.065636i
+Initial ez =2.3004-2.2222e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0307549                        0.0677
+     1         10       0.0307549      0.0127038         0.0677            0
+     2         15       0.0307549     0.00317594         0.0677            0
+     3         20       0.0307549    0.000793984         0.0677            0
+     4         25       0.0307549    0.000198496         0.0677            0
+     5         30       0.0307539     4.9624e-05         0.0573            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.960416e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 9775000000GHz
+et = 1.7873-0.065928i
+ez = 2.3004-2.2214e-14i
+mut = 1
+muz = 1
+Time to solution = 42.8557s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 11/25
+Frequency = 9950000000GHz
+Initial et =1.7873-0.065928i
+Initial ez =2.3004-2.2214e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0302943                         0.354
+     1         10       0.0302943       0.111824          0.354            0
+     2         15       0.0300088      0.0279561           0.07            0
+     3         20       0.0299638     0.00698902         0.0114            0
+     4         25       0.0298761       0.013978        0.00146            0
+     5         30       0.0298452      0.0279561         0.0229            0
+     6         35       0.0297531      0.0113852         0.0508            0
+     7         40       0.0297531      0.0163092         0.0508            0
+     8         45       0.0297531     0.00407731         0.0508            0
+     9         50       0.0297531     0.00101933         0.0508            0
+    10         55       0.0297531    0.000254832         0.0508            0
+    11         60       0.0297531    6.37079e-05         0.0508            0
+    12         65       0.0297529     1.5927e-05         0.0505            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',2.277481e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 9950000000GHz
+et = 1.7666-0.068685i
+ez = 2.3724-2.3005e-14i
+mut = 1
+muz = 1
+Time to solution = 94.1514s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 12/25
+Frequency = 10125000000GHz
+Initial et =1.7666-0.068685i
+Initial ez =2.3724-2.3005e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0294852                       0.00505
+     1         10       0.0294843      0.0204985         0.0182            0
+     2         15       0.0294843     0.00512463         0.0182            0
+     3         20       0.0294792     0.00128116        0.00169            0
+     4         25       0.0294792     0.00100371        0.00169            0
+     5         30       0.0294791    0.000250927       0.000277            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',8.723116e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 10125000000GHz
+et = 1.7679-0.069064i
+ez = 2.3512-3.5975e-14i
+mut = 1
+muz = 1
+Time to solution = 44.8599s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 13/25
+Frequency = 10300000000GHz
+Initial et =1.7679-0.069064i
+Initial ez =2.3512-3.5975e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0294664                        0.0393
+     1         10       0.0294147      0.0171313        0.00967            0
+     2         15       0.0294147     0.00275807        0.00967            0
+     3         20       0.0294147    0.000689518        0.00967            0
+     4         25       0.0294143     0.00017238        0.00657            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',3.956315e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 10300000000GHz
+et = 1.7672-0.070348i
+ez = 2.3262-2.2394e-14i
+mut = 1
+muz = 1
+Time to solution = 37.4663s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 14/25
+Frequency = 10475000000GHz
+Initial et =1.7672-0.070348i
+Initial ez =2.3262-2.2394e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0302668                        0.0557
+     1         10       0.0302554      0.0187758          0.011            0
+     2         15       0.0302546     0.00196498       0.000196            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',7.417659e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 10475000000GHz
+et = 1.7661-0.072064i
+ez = 2.3111-2.2461e-14i
+mut = 1
+muz = 1
+Time to solution = 21.3104s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 15/25
+Frequency = 10650000000GHz
+Initial et =1.7661-0.072064i
+Initial ez =2.3111-2.2461e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0320088                         0.076
+     1         10       0.0320088       0.119909          0.076            0
+     2         15       0.0319574      0.0299772         0.0172            0
+     3         20       0.0319574     0.00961006         0.0172            0
+     4         25       0.0319458     0.00240252        0.00176            0
+     5         30       0.0319407     0.00529196       9.44e-05            0
+     6         35       0.0319407     0.00154735       9.44e-05            0
+     7         40       0.0319407    0.000386836       0.000317            0
+     8         45       0.0319407    0.000292218       0.000297            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',2.168908e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 10650000000GHz
+et = 1.766-0.074325i
+ez = 2.2861-2.2217e-14i
+mut = 1
+muz = 1
+Time to solution = 70.598s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 16/25
+Frequency = 10825000000GHz
+Initial et =1.766-0.074325i
+Initial ez =2.2861-2.2217e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0344592                         0.102
+     1         10       0.0344503      0.0314474         0.0259            0
+     2         15       0.0344468     0.00704692         0.0012            0
+     3         20       0.0344442     0.00176173       0.000924            0
+     4         25       0.0344406     0.00352346        0.00518            0
+     5         30       0.0344372     0.00704692        0.00533            0
+     6         35       0.0344372     0.00376689        0.00289            0
+     7         40       0.0344372    0.000880874        0.00289            0
+     8         45       0.0344371    0.000220219        0.00112            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',1.213048e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 10825000000GHz
+et = 1.7653-0.077347i
+ez = 2.2643-3.917e-14i
+mut = 1
+muz = 1
+Time to solution = 69.7899s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 17/25
+Frequency = 11000000000GHz
+Initial et =1.7653-0.077347i
+Initial ez =2.2643-3.917e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0373595                         0.113
+     1         10       0.0373364      0.0118931        0.00384            0
+     2         15       0.0373346     0.00219897        0.00107            0
+     3         20       0.0373343    0.000879016        0.00073            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',2.589370e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 11000000000GHz
+et = 1.7576-0.08004i
+ez = 2.2983-2.2228e-14i
+mut = 1
+muz = 1
+Time to solution = 28.2515s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 18/25
+Frequency = 11175000000GHz
+Initial et =1.7576-0.08004i
+Initial ez =2.2983-2.2228e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0399002                         0.104
+     1         10       0.0398677     0.00931162       0.000839            0
+     2         15       0.0398677      0.0117061       0.000839            0
+     3         20       0.0398666     0.00292652        0.00269            0
+     4         25       0.0398666     0.00184367        0.00269            0
+     5         30       0.0398665    0.000460916       0.000522            0
+     6         35       0.0398665    0.000397463       0.000522            0
+     7         40       0.0398665    9.93657e-05       2.32e-05            0
+     8         45       0.0398665    9.93657e-05       0.000181            0
+     9         50       0.0398665    9.93657e-05       9.77e-05            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',1.655876e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 11175000000GHz
+et = 1.7486-0.082368i
+ez = 2.3379-2.3305e-14i
+mut = 1
+muz = 1
+Time to solution = 66.3934s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 19/25
+Frequency = 11350000000GHz
+Initial et =1.7486-0.082368i
+Initial ez =2.3379-2.3305e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0416348                        0.0675
+     1         10       0.0416348      0.0921546         0.0675            0
+     2         15       0.0416348      0.0230387         0.0675            0
+     3         20       0.0416033     0.00575966         0.0056            0
+     4         25       0.0416033      0.0115193         0.0056            0
+     5         30        0.041556     0.00287983        0.00766            0
+     6         35        0.041556     0.00575966        0.00766            0
+     7         40       0.0415366     0.00143992         0.0143            0
+     8         45       0.0415366     0.00287983         0.0143            0
+     9         50       0.0415366    0.000719958         0.0143            0
+    10         55       0.0415329    0.000179989          0.017            0
+    11         60       0.0415329    0.000359979          0.017            0
+    12         65       0.0415308    8.99947e-05          0.019            0
+    13         70       0.0415255    0.000179989         0.0267            0
+    14         75       0.0415255    0.000359979         0.0267            0
+    15         80       0.0415255    8.99947e-05         0.0267            0
+    16         85       0.0415247    2.24987e-05         0.0284            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',7.816263e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 11350000000GHz
+et = 1.7463-0.084588i
+ez = 2.3226-4.3295e-14i
+mut = 1
+muz = 1
+Time to solution = 113.8408s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 20/25
+Frequency = 11525000000GHz
+Initial et =1.7463-0.084588i
+Initial ez =2.3226-4.3295e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0429273                         0.105
+     1         10       0.0428678      0.0336821       0.000936            0
+     2         15       0.0428672     0.00294441       5.33e-05            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',6.141707e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 11525000000GHz
+et = 1.7346-0.086963i
+ez = 2.3764-2.223e-14i
+mut = 1
+muz = 1
+Time to solution = 21.2924s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 21/25
+Frequency = 11700000000GHz
+Initial et =1.7346-0.086963i
+Initial ez =2.3764-2.223e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0433255                         0.107
+     1         10       0.0432941       0.013791        0.00118            0
+     2         15       0.0432768      0.0265534         0.0239            0
+     3         20       0.0432768     0.00129887         0.0239            0
+     4         25       0.0432768    0.000324717         0.0239            0
+     5         30       0.0432765    8.11792e-05         0.0057            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',3.429993e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 11700000000GHz
+et = 1.7264-0.089425i
+ez = 2.4106-4.4022e-14i
+mut = 1
+muz = 1
+Time to solution = 42.9789s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 22/25
+Frequency = 11875000000GHz
+Initial et =1.7264-0.089425i
+Initial ez =2.4106-4.4022e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0435871                         0.153
+     1         10       0.0435293      0.0168089        0.00133            0
+     2         15       0.0435233      0.0336111         0.0308            0
+     3         20       0.0435202     0.00498353       0.000562            0
+     4         25       0.0435192      0.0141702         0.0121            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.812533e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 11875000000GHz
+et = 1.7174-0.093011i
+ez = 2.4685-2.2217e-14i
+mut = 1
+muz = 1
+Time to solution = 31.6434s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 23/25
+Frequency = 12050000000GHz
+Initial et =1.7174-0.093011i
+Initial ez =2.4685-2.2217e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0439521                         0.188
+     1         10         0.04392     0.00866263        0.00782            0
+     2         15       0.0439186      0.0171946         0.0153            0
+     3         20       0.0439179     0.00254727       0.000307            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',6.543210e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 12050000000GHz
+et = 1.7119-0.098074i
+ez = 2.509-2.2547e-14i
+mut = 1
+muz = 1
+Time to solution = 24.9349s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 24/25
+Frequency = 12225000000GHz
+Initial et =1.7119-0.098074i
+Initial ez =2.509-2.2547e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0455575                          0.27
+     1         10       0.0455142     0.00316351         0.0295            0
+     2         15       0.0455136     0.00269271        0.00349            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',5.853451e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 12225000000GHz
+et = 1.7104-0.10579i
+ez = 2.5089-2.2893e-14i
+mut = 1
+muz = 1
+Time to solution = 17.5793s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+%%%%%%%%%%%%%%%%%%%
+Now processing point 25/25
+Frequency = 12400000000GHz
+Initial et =1.7104-0.10579i
+Initial ez =2.5089-2.2893e-14i
+Initial mut =1
+Initial muz =1
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5       0.0492771                         0.395
+     1         10       0.0491852     0.00155835         0.0235            0
+     2         15       0.0491848    0.000104614        0.00219            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',3.515867e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+%%%%%%%%%%%%%%%%%%%
+Final values for Frequency = 12400000000GHz
+et = 1.7106-0.11745i
+ez = 2.5092-2.2743e-14i
+mut = 1
+muz = 1
+Time to solution = 17.4653s
+%%%%%%%%%%%%%%%%%%%
+ 
+
+Finished - total solution time = 0 hours, 25 mins, 21 secs
+Avg et = 1.7756-0.074115i
+Avg ez = 2.291-6.3472e-07i
+Avg mut = 1
+Avg muz = 1
+all figures have been saved

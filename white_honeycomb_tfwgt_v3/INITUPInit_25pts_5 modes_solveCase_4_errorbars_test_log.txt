@@ -1,0 +1,732 @@
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+dbstep
+<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m',389,1)">389 </a>    eval(['real' cell2mat(svarnames(2)) 'meas1=A(:,4);']);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+wfds/2/pi
+
+ans =
+
+   1.0e+10 *
+
+  Columns 1 through 11
+
+    0.8200    0.8375    0.8550    0.8725    0.8900    0.9075    0.9250    0.9425    0.9600    0.9775    0.9950
+
+  Columns 12 through 22
+
+    1.0125    1.0300    1.0475    1.0650    1.0825    1.1000    1.1175    1.1350    1.1525    1.1700    1.1875
+
+  Columns 23 through 25
+
+    1.2050    1.2225    1.2400
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+S11m1dsreal=interp1(wf,realS11meas1,wfds);
+S11m1dsimag=interp1(wf,imagS11meas1,wfds);
+plot(wf,realS11meas1)
+hold on
+plot(wfds,S11m1dsreal,'r')
+plot(wfds,real(S11m1ds),'k')
+figure
+plot(wf,imagS11meas1)
+hold on
+plot(wfds,S11m1dsimag,'r')
+plot(wfds,imag(S11m1ds),'k')
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+%%%%%%%%%%%%%%%%%%%
+if system_dependent('IsDebugMode')==1, dbstep; end
+Now processing point 1/25
+if system_dependent('IsDebugMode')==1, dbstep; end
+Frequency = 8200000000GHz
+if system_dependent('IsDebugMode')==1, dbstep; end
+Initial et =2.9-0.05i
+if system_dependent('IsDebugMode')==1, dbstep; end
+Initial ez =2.9-0.05i
+if system_dependent('IsDebugMode')==1, dbstep; end
+Initial mut =1-0.05i
+if system_dependent('IsDebugMode')==1, dbstep; end
+Initial muz =1-0.05i
+if system_dependent('IsDebugMode')==1, dbstep; end
+%%%%%%%%%%%%%%%%%%%
+if system_dependent('IsDebugMode')==1, dbstep; end
+ 
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.489702                          4.96
+     1         10        0.301833       0.892724           1.49            0
+     2         15        0.118177        0.85579          0.171            0
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('SelfIntegral_4', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\SelfIntegral_4.m', 140)" style="font-weight:bold">SelfIntegral_4</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\SelfIntegral_4.m',140,0)">line 140</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('Sparams>@(lamx)SelfIntegral_4(wval,et,ez,mut,muz,wm,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx)', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m', 208)" style="font-weight:bold">Sparams>@(lamx)SelfIntegral_4(wval,et,ez,mut,muz,wm,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx)</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m',208,0)">line 208</a>)
+               intval11=quadgk(@(lamx)
+               SelfIntegral_4(wval,et,ez,mut,muz,wm,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx),0,50e3,'abstol',1e-10,'reltol',1e-10);
+               
+In <a href="matlab:helpUtils.errorDocCallback('quadgk/evalFun', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 339)" style="font-weight:bold">quadgk/evalFun</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',339,0)">line 339</a>)
+                fx = FUN(x);
+
+In <a href="matlab:helpUtils.errorDocCallback('quadgk/f1', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 349)" style="font-weight:bold">quadgk/f1</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',349,0)">line 349</a>)
+        [y,too_close] = evalFun(tt);
+
+In <a href="matlab:helpUtils.errorDocCallback('quadgk/vadapt', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 250)" style="font-weight:bold">quadgk/vadapt</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',250,0)">line 250</a>)
+            [fx,too_close] = f(x);
+
+In <a href="matlab:helpUtils.errorDocCallback('quadgk', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 189)" style="font-weight:bold">quadgk</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',189,0)">line 189</a>)
+    [q,errbnd] = vadapt(@f1,interval);
+
+In <a href="matlab:helpUtils.errorDocCallback('Sparams', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m', 208)" style="font-weight:bold">Sparams</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m',208,0)">line 208</a>)
+               intval11=quadgk(@(lamx)
+               SelfIntegral_4(wval,et,ez,mut,muz,wm,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx),0,50e3,'abstol',1e-10,'reltol',1e-10);
+               
+In <a href="matlab:helpUtils.errorDocCallback('lsqcurvefit/objective', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m', 257)" style="font-weight:bold">lsqcurvefit/objective</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m',257,0)">line 257</a>)
+         F = feval(funfcn_x_xdata{3},x,XDATA,varargin{:});
+
+In C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\finDiffEvalAndChkErr.p>finDiffEvalAndChkErr (line 26)
+
+
+In C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\finitedifferences.p>finitedifferences (line 128)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('sfdnls', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\sfdnls.m', 89)" style="font-weight:bold">sfdnls</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\sfdnls.m',89,0)">line 89</a>)
+   [J,~,~,numEvals] = finitedifferences(x,fun,[],lb,ub,valx,[],[], ...
+
+In <a href="matlab:helpUtils.errorDocCallback('snls', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\snls.m', 342)" style="font-weight:bold">snls</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\snls.m',342,0)">line 342</a>)
+         [newA, findiffevals] = sfdnls(xcurr,newfvec,Jstr,group,[], ...
+
+In <a href="matlab:helpUtils.errorDocCallback('lsqncommon', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqncommon.m', 175)" style="font-weight:bold">lsqncommon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqncommon.m',175,0)">line 175</a>)
+    [xC,FVAL,LAMBDA,JACOB,EXITFLAG,OUTPUT,msgData]=...
+
+In <a href="matlab:helpUtils.errorDocCallback('lsqcurvefit', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m', 249)" style="font-weight:bold">lsqcurvefit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m',249,0)">line 249</a>)
+[xCurrent,Resnorm,FVAL,EXITFLAG,OUTPUT,LAMBDA,JACOB] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('runSolver', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\runSolver.m', 68)" style="font-weight:bold">runSolver</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\runSolver.m',68,0)">line 68</a>)
+            Y=lsqcurvefit(@Sparams,[real(etguess) imag(etguess)...
+
+In <a href="matlab:helpUtils.errorDocCallback('uniaxial_full', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m', 644)" style="font-weight:bold">uniaxial_full</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m',644,0)">line 644</a>)
+    [etsol(widx), ezsol(widx), mutsol(widx), muzsol(widx)] ...
+} 
+uniaxial_full
+if system_dependent('IsDebugMode')==1, dbcont; end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Material is: white_honeycomb
+
+dmat =
+
+    0.0065
+
+(in m)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+Now processing point 1/25
+Frequency = 8200000000GHz
+Initial et =2.9-0.05i
+Initial ez =2.9-0.05i
+Initial mut =1-0.05i
+Initial muz =1-0.05i
+%%%%%%%%%%%%%%%%%%%
+ 
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+%%%%%%%%%%%%%%%%%%%
+Now processing point 1/25
+Frequency = 8200000000GHz
+Initial et =2.9-0.05i
+Initial ez =2.9-0.05i
+Initial mut =1-0.05i
+Initial muz =1-0.05i
+%%%%%%%%%%%%%%%%%%%
+ 
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+50e3
+
+ans =
+
+       50000
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+quadgk(@(lamx) SelfIntegral_3(wval,et,ez,mut,muz,wn,vm,vn,a,b,d,Mhxm,Mhxn,Mhyn,lamx),0,inf,'abstol',1e-10,'reltol',1e-10)
+
+ans =
+
+   2.1128e-08 - 1.1273e-08i
+
+quadgk(@(lamx) CouplingIntegral_3(wval,et,ez,mut,muz,wn,vm,vn,a,b,d,Mhxm,Mhxn,Mhyn,lamx),0,50e3,'abstol',1e-10,'reltol',1e-10)
+
+ans =
+
+   1.9941e-09 - 1.1219e-08i
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+uniaxial_full
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Material is: white_honeycomb
+
+dmat =
+
+    0.0065
+
+(in m)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+Now processing point 1/25
+Frequency = 8200000000GHz
+Initial et =2.9-0.05i
+Initial ez =2.9-0.05i
+Initial mut =1-0.05i
+Initial muz =1-0.05i
+%%%%%%%%%%%%%%%%%%%
+ 
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.489702                          4.96
+     1         10        0.301833       0.892724           1.49            0
+     2         15        0.118177        0.85579          0.171            0
+     3         20       0.0373049       0.869974            2.1            0
+     4         25       0.0225562       0.265826         0.0117            0
+     5         30       0.0196223        0.24277          0.178            0
+     6         35       0.0193171      0.0917346        0.00792            0
+     7         40       0.0191719      0.0892277         0.0626            0
+     8         45       0.0191719      0.0191307         0.0626            0
+     9         50       0.0191045     0.00478268         0.0344            0
+    10         55       0.0191045     0.00956536         0.0344            0
+    11         60        0.019089     0.00239134        0.00925            0
+    12         65       0.0190856     0.00478268        0.00224            0
+    13         70       0.0190829     0.00119567        0.00177            0
+    14         75       0.0190829     0.00119567        0.00177            0
+    15         80       0.0190829    0.000298917        0.00177            0
+    16         85       0.0190828    7.47294e-05       0.000889            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.663088e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.491035                          4.97
+     1         10         0.30301       0.893212            1.5            0
+     2         15        0.118637       0.856654          0.172            0
+     3         20       0.0374115       0.869849            2.1            0
+     4         25       0.0226792       0.265337         0.0127            0
+     5         30       0.0195762        0.21746          0.101            0
+     6         35       0.0192263      0.0941793         0.0478            0
+     7         40       0.0192263      0.0349811         0.0478            0
+     8         45        0.019174     0.00874528        0.00408            0
+     9         50        0.019152      0.0174906        0.00165            0
+    10         55       0.0191455      0.0153973       0.000369            0
+    11         60       0.0191455      0.0114945       0.000369            0
+    12         65       0.0191451     0.00287362        0.00304            0
+    13         70       0.0191451     0.00149134        0.00304            0
+    14         75        0.019145    0.000372836       7.59e-05            0
+    15         80        0.019145    0.000372836       0.000214            0
+    16         85        0.019145    0.000372836       1.04e-05            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',9.343127e-09,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+format long
+if system_dependent('IsDebugMode')==1, dbstep; end
+SmeasDelta(:,sidx)
+
+ans =
+
+  -0.192433064545548
+  -0.329152640000000
+   0.229385750000000
+  -0.641094920000000
+   0.228812690000000
+  -0.640378240000000
+  -0.193393230000000
+  -0.333722030000000
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.489706                          4.96
+     1         10        0.301834        0.89273           1.49            0
+     2         15        0.118177       0.855784          0.171            0
+     3         20        0.037305       0.869958            2.1            0
+     4         25       0.0225555       0.265827         0.0117            0
+     5         30       0.0196238       0.243019          0.179            0
+     6         35       0.0193145      0.0916735        0.00749            0
+     7         40       0.0191797      0.0904324         0.0648            0
+     8         45       0.0191797      0.0197404         0.0648            0
+     9         50       0.0191083      0.0049351         0.0378            0
+    10         55       0.0191083     0.00987019         0.0378            0
+    11         60       0.0190907     0.00246755         0.0109            0
+    12         65       0.0190855      0.0049351        0.00222            0
+    13         70       0.0190826      0.0049351        0.00694            0
+    14         75       0.0190822     0.00123377       0.000443            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible_lsq','CSHelpWindow');">Local minimum possible</a>.
+
+lsqcurvefit stopped because the final change in the sum of squares relative to 
+its initial value is less than the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',3.000000e+00,true,true,'lsqcurvefit',4.235263e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5          0.4897                          4.96
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('CouplingIntegral_5', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\CouplingIntegral_5.m', 41)" style="font-weight:bold">CouplingIntegral_5</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\CouplingIntegral_5.m',41,0)">line 41</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('Sparams>@(lamx)CouplingIntegral_5(wval,et,ez,mut,muz,wm,wn,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx)', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m', 215)" style="font-weight:bold">Sparams>@(lamx)CouplingIntegral_5(wval,et,ez,mut,muz,wm,wn,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx)</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m',215,0)">line 215</a>)
+               intval12=quadgk(@(lamx)
+               CouplingIntegral_5(wval,et,ez,mut,muz,wm,wn,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx),0,50e3,'abstol',1e-10,'reltol',1e-10);
+               
+In <a href="matlab:helpUtils.errorDocCallback('quadgk/evalFun', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 331)" style="font-weight:bold">quadgk/evalFun</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',331,0)">line 331</a>)
+            fx = FUN(x);
+
+In <a href="matlab:helpUtils.errorDocCallback('quadgk/f1', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 349)" style="font-weight:bold">quadgk/f1</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',349,0)">line 349</a>)
+        [y,too_close] = evalFun(tt);
+
+In <a href="matlab:helpUtils.errorDocCallback('quadgk/vadapt', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 250)" style="font-weight:bold">quadgk/vadapt</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',250,0)">line 250</a>)
+            [fx,too_close] = f(x);
+
+In <a href="matlab:helpUtils.errorDocCallback('quadgk', 'C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m', 189)" style="font-weight:bold">quadgk</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\matlab\funfun\quadgk.m',189,0)">line 189</a>)
+    [q,errbnd] = vadapt(@f1,interval);
+
+In <a href="matlab:helpUtils.errorDocCallback('Sparams', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m', 215)" style="font-weight:bold">Sparams</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\Sparams.m',215,0)">line 215</a>)
+               intval12=quadgk(@(lamx)
+               CouplingIntegral_5(wval,et,ez,mut,muz,wm,wn,vm,vn,a,b,d,Mhxm,Mhxn,Mhym,Mhyn,lamx),0,50e3,'abstol',1e-10,'reltol',1e-10);
+               
+In <a href="matlab:helpUtils.errorDocCallback('lsqcurvefit/objective', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m', 257)" style="font-weight:bold">lsqcurvefit/objective</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m',257,0)">line 257</a>)
+         F = feval(funfcn_x_xdata{3},x,XDATA,varargin{:});
+
+In C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\finDiffEvalAndChkErr.p>finDiffEvalAndChkErr (line 26)
+
+
+In C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\finitedifferences.p>finitedifferences (line 128)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('sfdnls', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\sfdnls.m', 89)" style="font-weight:bold">sfdnls</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\sfdnls.m',89,0)">line 89</a>)
+   [J,~,~,numEvals] = finitedifferences(x,fun,[],lb,ub,valx,[],[], ...
+
+In <a href="matlab:helpUtils.errorDocCallback('snls', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\snls.m', 342)" style="font-weight:bold">snls</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\snls.m',342,0)">line 342</a>)
+         [newA, findiffevals] = sfdnls(xcurr,newfvec,Jstr,group,[], ...
+
+In <a href="matlab:helpUtils.errorDocCallback('lsqncommon', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqncommon.m', 175)" style="font-weight:bold">lsqncommon</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqncommon.m',175,0)">line 175</a>)
+    [xC,FVAL,LAMBDA,JACOB,EXITFLAG,OUTPUT,msgData]=...
+
+In <a href="matlab:helpUtils.errorDocCallback('lsqcurvefit', 'C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m', 249)" style="font-weight:bold">lsqcurvefit</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012b\toolbox\shared\optimlib\lsqcurvefit.m',249,0)">line 249</a>)
+[xCurrent,Resnorm,FVAL,EXITFLAG,OUTPUT,LAMBDA,JACOB] = ...
+
+In <a href="matlab:helpUtils.errorDocCallback('runSolver', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\runSolver.m', 68)" style="font-weight:bold">runSolver</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\runSolver.m',68,0)">line 68</a>)
+            Y=lsqcurvefit(@Sparams,[real(etguess) imag(etguess)...
+
+In <a href="matlab:helpUtils.errorDocCallback('getErrorTerms', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\getErrorTerms.m', 57)" style="font-weight:bold">getErrorTerms</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\getErrorTerms.m',57,0)">line 57</a>)
+  [etDeltaS,ezDeltaS,mutDeltaS,muzDeltaS] = runSolver(SmeasDelta(:,sidx),wval,etguess,ezguess,mutguess,muzguess);
+
+In <a href="matlab:helpUtils.errorDocCallback('uniaxial_full', 'C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m', 652)" style="font-weight:bold">uniaxial_full</a> (<a href="matlab: opentoline('C:\Users\nrogers\Documents\AFIT_PhD\MATLAB\characterization\uniaxial code\uniaxial_full.m',652,0)">line 652</a>)
+           [stddeltaetreal(widx), stddeltaetimag(widx), stddeltaezreal(widx), stddeltaezimag(widx),...
+} 
+uniaxial_full
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Material is: white_honeycomb
+
+dmat =
+
+   0.006470000000000
+
+(in m)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

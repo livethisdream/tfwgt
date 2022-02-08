@@ -1,0 +1,693 @@
+%%%%%%%%%%%%%%%%%%%
+Now processing point 1/25
+Frequency = 8200000000GHz
+Initial et =2.9-0.05i
+Initial ez =2.9-0.05i
+Initial mut =1-0.05i
+Initial muz =1-0.05i
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586657                          4.83
+     1         10        0.254612       0.884512          0.159            0
+     2         15       0.0623856       0.738287          0.071            0
+     3         20       0.0131694       0.421688         0.0127            0
+     4         25      0.00326163       0.219046         0.0198            0
+     5         30     0.000840067       0.135562        0.00256            0
+     6         35     0.000193295      0.0954711        0.00131            0
+     7         40     5.23368e-05       0.072408       9.29e-05            0
+     8         45     1.96067e-05      0.0477279       2.62e-05            0
+     9         50     1.26441e-05      0.0304778       5.81e-06            0
+    10         55     1.14419e-05      0.0178792       1.08e-06            0
+    11         60     1.13193e-05     0.00792613       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.226905e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.587908                          4.84
+     1         10         0.25585       0.884715           0.16            0
+     2         15       0.0627447        0.73887         0.0716            0
+     3         20       0.0132337       0.421991         0.0128            0
+     4         25      0.00327199       0.219284         0.0203            0
+     5         30     0.000841566        0.13535        0.00259            0
+     6         35     0.000193326      0.0954855        0.00134            0
+     7         40     5.20274e-05      0.0725486       9.31e-05            0
+     8         45     1.94269e-05      0.0476147       2.61e-05            0
+     9         50      1.2575e-05      0.0302338       5.74e-06            0
+    10         55     1.14269e-05      0.0174622       1.04e-06            0
+    11         60     1.13184e-05     0.00741131        1.1e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.097290e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586662                          4.83
+     1         10        0.254616       0.884516          0.159            0
+     2         15       0.0623866       0.738293          0.071            0
+     3         20       0.0131696       0.421692         0.0127            0
+     4         25      0.00326172       0.219047         0.0198            0
+     5         30     0.000840101       0.135563        0.00256            0
+     6         35     0.000193308      0.0954717        0.00131            0
+     7         40     5.23463e-05      0.0724079       9.29e-05            0
+     8         45      1.9614e-05      0.0477291       2.62e-05            0
+     9         50     1.26504e-05      0.0304795       5.81e-06            0
+    10         55     1.14478e-05      0.0178819       1.08e-06            0
+    11         60     1.13251e-05     0.00792939       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.227365e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884509          0.159            0
+     2         15        0.062385        0.73829         0.0709            0
+     3         20       0.0131692       0.421687         0.0127            0
+     4         25      0.00326158       0.219041         0.0198            0
+     5         30     0.000840055       0.135565        0.00256            0
+     6         35     0.000193306      0.0954702        0.00131            0
+     7         40     5.23571e-05      0.0724064       9.29e-05            0
+     8         45     1.96313e-05      0.0477254       2.62e-05            0
+     9         50     1.26707e-05       0.030474       5.81e-06            0
+    10         55     1.14694e-05      0.0178733       1.08e-06            0
+    11         60      1.1347e-05     0.00791887       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.224167e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586661                          4.83
+     1         10        0.254616       0.884511          0.159            0
+     2         15       0.0623865       0.738286          0.071            0
+     3         20       0.0131696       0.421687         0.0127            0
+     4         25      0.00326165       0.219046         0.0198            0
+     5         30     0.000840071       0.135561        0.00256            0
+     6         35     0.000193297      0.0954711        0.00131            0
+     7         40     5.23386e-05      0.0724087       9.29e-05            0
+     8         45     1.96094e-05      0.0477274       2.62e-05            0
+     9         50     1.26473e-05      0.0304766       5.81e-06            0
+    10         55     1.14453e-05      0.0178773       1.08e-06            0
+    11         60     1.13228e-05     0.00792377       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.225815e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884512          0.159            0
+     2         15       0.0623851       0.738286          0.071            0
+     3         20       0.0131691       0.421687         0.0127            0
+     4         25      0.00326143       0.219047         0.0198            0
+     5         30     0.000839954       0.135559        0.00256            0
+     6         35     0.000193237      0.0954679        0.00131            0
+     7         40     5.23081e-05      0.0724038       9.29e-05            0
+     8         45     1.95923e-05      0.0477206       2.62e-05            0
+     9         50     1.26364e-05      0.0304657       5.81e-06            0
+    10         55     1.14369e-05      0.0178603       1.07e-06            0
+    11         60     1.13149e-05     0.00790298       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.220747e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586661                          4.83
+     1         10        0.254616       0.884511          0.159            0
+     2         15       0.0623865       0.738286          0.071            0
+     3         20       0.0131696       0.421687         0.0127            0
+     4         25      0.00326165       0.219046         0.0198            0
+     5         30     0.000840064       0.135561        0.00256            0
+     6         35      0.00019329      0.0954711        0.00131            0
+     7         40     5.23317e-05      0.0724087       9.29e-05            0
+     8         45     1.96024e-05      0.0477274       2.62e-05            0
+     9         50     1.26403e-05      0.0304766       5.81e-06            0
+    10         55     1.14384e-05      0.0178773       1.08e-06            0
+    11         60     1.13158e-05     0.00792376       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.225786e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884512          0.159            0
+     2         15       0.0623851       0.738286          0.071            0
+     3         20       0.0131691       0.421687         0.0127            0
+     4         25      0.00326143       0.219047         0.0198            0
+     5         30     0.000839963       0.135559        0.00256            0
+     6         35     0.000193245      0.0954679        0.00131            0
+     7         40     5.23168e-05      0.0724038       9.29e-05            0
+     8         45      1.9601e-05      0.0477206       2.62e-05            0
+     9         50      1.2645e-05      0.0304657       5.81e-06            0
+    10         55     1.14455e-05      0.0178603       1.07e-06            0
+    11         60     1.13236e-05     0.00790298       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.220747e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586661                          4.83
+     1         10        0.254616       0.884516          0.159            0
+     2         15       0.0623866       0.738293          0.071            0
+     3         20       0.0131696       0.421692         0.0127            0
+     4         25      0.00326171       0.219047         0.0198            0
+     5         30     0.000840089       0.135563        0.00256            0
+     6         35     0.000193296      0.0954717        0.00131            0
+     7         40     5.23347e-05      0.0724079       9.29e-05            0
+     8         45     1.96024e-05      0.0477291       2.62e-05            0
+     9         50     1.26388e-05      0.0304795       5.81e-06            0
+    10         55     1.14362e-05      0.0178819       1.08e-06            0
+    11         60     1.13135e-05     0.00792938       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.227500e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884509          0.159            0
+     2         15        0.062385        0.73829         0.0709            0
+     3         20       0.0131692       0.421687         0.0127            0
+     4         25      0.00326152       0.219041         0.0198            0
+     5         30         0.00084       0.135565        0.00256            0
+     6         35     0.000193251      0.0954701        0.00131            0
+     7         40     5.23017e-05      0.0724064       9.29e-05            0
+     8         45      1.9576e-05      0.0477254       2.62e-05            0
+     9         50     1.26154e-05       0.030474       5.81e-06            0
+    10         55      1.1414e-05      0.0178733       1.08e-06            0
+    11         60     1.12916e-05     0.00791886       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.224819e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+abs(S11)
+
+ans =
+
+   0.381279786148366
+
+S11
+
+S11 =
+
+ -0.192439120000000 - 0.329152640000000i
+
+20*log10(abs(S21))
+
+ans =
+
+  -3.338373514315873
+
+abs(S21)
+
+ans =
+
+   0.680896848834586
+
+10.^(u_trans_mag_db/20)
+
+ans =
+
+   1.013172194529594
+
+abs(S21db)
+
+ans =
+
+   3.338373514315873
+
+abs(S21)
+
+ans =
+
+   0.680896848834586
+
+sqrt(real(S21)^2+imag(S21)^2)
+
+ans =
+
+   0.680896848834586
+
+10.^(u_trans_mag_db/20)
+
+ans =
+
+   1.013172194529594
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+uniaxial_full
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Material is: white_honeycomb
+
+dmat =
+
+   0.006470000000000
+
+(in m)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%
+Now processing point 1/25
+Frequency = 8200000000GHz
+Initial et =2.9-0.05i
+Initial ez =2.9-0.05i
+Initial mut =1-0.05i
+Initial muz =1-0.05i
+%%%%%%%%%%%%%%%%%%%
+ 
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586657                          4.83
+     1         10        0.254612       0.884512          0.159            0
+     2         15       0.0623856       0.738287          0.071            0
+     3         20       0.0131694       0.421688         0.0127            0
+     4         25      0.00326163       0.219046         0.0198            0
+     5         30     0.000840067       0.135562        0.00256            0
+     6         35     0.000193295      0.0954711        0.00131            0
+     7         40     5.23368e-05       0.072408       9.29e-05            0
+     8         45     1.96067e-05      0.0477279       2.62e-05            0
+     9         50     1.26441e-05      0.0304778       5.81e-06            0
+    10         55     1.14419e-05      0.0178792       1.08e-06            0
+    11         60     1.13193e-05     0.00792613       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.226905e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.587908                          4.84
+     1         10         0.25585       0.884715           0.16            0
+     2         15       0.0627447        0.73887         0.0716            0
+     3         20       0.0132337       0.421991         0.0128            0
+     4         25      0.00327199       0.219284         0.0203            0
+     5         30     0.000841566        0.13535        0.00259            0
+     6         35     0.000193326      0.0954855        0.00134            0
+     7         40     5.20274e-05      0.0725486       9.31e-05            0
+     8         45     1.94269e-05      0.0476147       2.61e-05            0
+     9         50      1.2575e-05      0.0302338       5.74e-06            0
+    10         55     1.14269e-05      0.0174622       1.04e-06            0
+    11         60     1.13184e-05     0.00741131        1.1e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.097290e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586662                          4.83
+     1         10        0.254616       0.884516          0.159            0
+     2         15       0.0623866       0.738293          0.071            0
+     3         20       0.0131696       0.421692         0.0127            0
+     4         25      0.00326172       0.219047         0.0198            0
+     5         30     0.000840101       0.135563        0.00256            0
+     6         35     0.000193308      0.0954717        0.00131            0
+     7         40     5.23463e-05      0.0724079       9.29e-05            0
+     8         45      1.9614e-05      0.0477291       2.62e-05            0
+     9         50     1.26504e-05      0.0304795       5.81e-06            0
+    10         55     1.14478e-05      0.0178819       1.08e-06            0
+    11         60     1.13251e-05     0.00792939       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.227365e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884509          0.159            0
+     2         15        0.062385        0.73829         0.0709            0
+     3         20       0.0131692       0.421687         0.0127            0
+     4         25      0.00326158       0.219041         0.0198            0
+     5         30     0.000840055       0.135565        0.00256            0
+     6         35     0.000193306      0.0954702        0.00131            0
+     7         40     5.23571e-05      0.0724064       9.29e-05            0
+     8         45     1.96313e-05      0.0477254       2.62e-05            0
+     9         50     1.26707e-05       0.030474       5.81e-06            0
+    10         55     1.14694e-05      0.0178733       1.08e-06            0
+    11         60      1.1347e-05     0.00791887       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.224167e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586661                          4.83
+     1         10        0.254616       0.884511          0.159            0
+     2         15       0.0623865       0.738286          0.071            0
+     3         20       0.0131696       0.421687         0.0127            0
+     4         25      0.00326165       0.219046         0.0198            0
+     5         30     0.000840071       0.135561        0.00256            0
+     6         35     0.000193297      0.0954711        0.00131            0
+     7         40     5.23386e-05      0.0724087       9.29e-05            0
+     8         45     1.96094e-05      0.0477274       2.62e-05            0
+     9         50     1.26473e-05      0.0304766       5.81e-06            0
+    10         55     1.14453e-05      0.0178773       1.08e-06            0
+    11         60     1.13228e-05     0.00792377       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.225815e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884512          0.159            0
+     2         15       0.0623851       0.738286          0.071            0
+     3         20       0.0131691       0.421687         0.0127            0
+     4         25      0.00326143       0.219047         0.0198            0
+     5         30     0.000839954       0.135559        0.00256            0
+     6         35     0.000193237      0.0954679        0.00131            0
+     7         40     5.23081e-05      0.0724038       9.29e-05            0
+     8         45     1.95923e-05      0.0477206       2.62e-05            0
+     9         50     1.26364e-05      0.0304657       5.81e-06            0
+    10         55     1.14369e-05      0.0178603       1.07e-06            0
+    11         60     1.13149e-05     0.00790298       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.220747e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586661                          4.83
+     1         10        0.254616       0.884511          0.159            0
+     2         15       0.0623865       0.738286          0.071            0
+     3         20       0.0131696       0.421687         0.0127            0
+     4         25      0.00326165       0.219046         0.0198            0
+     5         30     0.000840064       0.135561        0.00256            0
+     6         35      0.00019329      0.0954711        0.00131            0
+     7         40     5.23317e-05      0.0724087       9.29e-05            0
+     8         45     1.96024e-05      0.0477274       2.62e-05            0
+     9         50     1.26403e-05      0.0304766       5.81e-06            0
+    10         55     1.14384e-05      0.0178773       1.08e-06            0
+    11         60     1.13158e-05     0.00792376       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.225786e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884512          0.159            0
+     2         15       0.0623851       0.738286          0.071            0
+     3         20       0.0131691       0.421687         0.0127            0
+     4         25      0.00326143       0.219047         0.0198            0
+     5         30     0.000839963       0.135559        0.00256            0
+     6         35     0.000193245      0.0954679        0.00131            0
+     7         40     5.23168e-05      0.0724038       9.29e-05            0
+     8         45      1.9601e-05      0.0477206       2.62e-05            0
+     9         50      1.2645e-05      0.0304657       5.81e-06            0
+    10         55     1.14455e-05      0.0178603       1.07e-06            0
+    11         60     1.13236e-05     0.00790298       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.220747e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586661                          4.83
+     1         10        0.254616       0.884516          0.159            0
+     2         15       0.0623866       0.738293          0.071            0
+     3         20       0.0131696       0.421692         0.0127            0
+     4         25      0.00326171       0.219047         0.0198            0
+     5         30     0.000840089       0.135563        0.00256            0
+     6         35     0.000193296      0.0954717        0.00131            0
+     7         40     5.23347e-05      0.0724079       9.29e-05            0
+     8         45     1.96024e-05      0.0477291       2.62e-05            0
+     9         50     1.26388e-05      0.0304795       5.81e-06            0
+    10         55     1.14362e-05      0.0178819       1.08e-06            0
+    11         60     1.13135e-05     0.00792938       1.23e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.227500e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality   CG-iterations
+     0          5        0.586655                          4.83
+     1         10        0.254612       0.884509          0.159            0
+     2         15        0.062385        0.73829         0.0709            0
+     3         20       0.0131692       0.421687         0.0127            0
+     4         25      0.00326152       0.219041         0.0198            0
+     5         30         0.00084       0.135565        0.00256            0
+     6         35     0.000193251      0.0954701        0.00131            0
+     7         40     5.23017e-05      0.0724064       9.29e-05            0
+     8         45      1.9576e-05      0.0477254       2.62e-05            0
+     9         50     1.26154e-05       0.030474       5.81e-06            0
+    10         55      1.1414e-05      0.0178733       1.08e-06            0
+    11         60     1.12916e-05     0.00791886       1.22e-07            0
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_lsq','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'lsq_grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'function_tolerance_lsq','CSHelpWindow');">function tolerance</a>.
+
+<<a href = "matlab: createExitMsg('snls',1.000000e+00,true,true,'lsqcurvefit',1.224819e-07,'default',1.000000e-06,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+10.^(-u_trans_mag_db/20)
+
+ans =
+
+   0.986999056428202
+
+(10.^(-u_trans_mag_db/20))-1
+
+ans =
+
+  -0.013000943571798
+
+-u_trans_mag_db/20
+
+ans =
+
+  -0.005683262515997
+
+10^(ans)
+
+ans =
+
+   0.986999056428202
+
+S21
+
+S21 =
+
+  0.229385750000000 - 0.641094920000000i
+
+clc
+S21
+
+S21 =
+
+  0.229385750000000 - 0.641094920000000i
+
+S21db=20*log10(abs(S21))
+
+S21db =
+
+  -3.338373514315873
+
+u_trans_mag_db=ppval(pp,abs(S21db))
+
+u_trans_mag_db =
+
+   0.795001209206825
+
+u_trans_mag=10.^(-u_trans_mag_db/20)-1
+
+u_trans_mag =
+
+  -0.087464140907124
+
+u_trans=u_trans_mag*exp(1j*deg2rad(u_trans_phase))
+
+u_trans =
+
+ -0.087455721463661 - 0.001213560007457i
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+% transmission magnitude (transmission coefficient in dBm)
+x=[0 0.546117 1.31068 1.74757 2.73058 3.2767 4.15049 5.1335 6.1165...
+    7.20874 7.9733 8.73786 10.4854 11.9053 13.216 14.3083 18.0218...
+    22.5 28.2888 33.9684 42.3786 49.1505 53.5194 57.233 60.7282 64.6602...
+    68.9199 70.9951 74.7087 77.2209 80.4976 83.3374 85.1942 86.5049...
+    88.5801 90.1092]; % these are really negative values, but i input them as positive to ease comparison in matlab
+y=[0.0399211 0.0471353 0.0723968 0.0854798 0.0995396 0.114318 0.127706...
+    0.134977 0.146667 0.157178 0.163843 0.166127 0.173172 0.190792 0.188169...
+    0.185583 0.196149 0.198883 0.213136 0.216107 0.231595 0.231595 0.241416...
+    0.255161 0.26598 0.269688 0.285043 0.29713 0.305471 0.318424 0.350825...
+    0.365701 0.375968 0.39191 0.437807 0.456372];
+pp=csaps(x,y);
+clc
+S21db=20*log10(abs(S21))
+
+S21db =
+
+  -3.349450419582043
+
+u_trans_mag_db=ppval(pp,abs(S21db))
+
+u_trans_mag_db =
+
+   0.113852547688543
+
+u_trans_mag=10.^(-u_trans_mag_db/20)-1
+
+u_trans_mag =
+
+  -0.013022226404145
+
+% transmission phase (again, transmission coefficient in dbm)
+x=[0.00867882 0.327068 0.750718 0.964341 1.70613 2.23542 2.97584 3.71602 4.87948...
+    5.72492 6.67662 8.15561 10.5858 12.0651 15.6572 18.5093 25.376 31.9254...
+    39.4259 45.4471 51.9971 55.2718 59.286 62.6669 68.8997 70.2735 73.865 76.0839...
+    79.359 81.6831 83.0566 84.5359 85.8037 86.5436 87.6003 88.7626 90.2423];
+y=[0.263538 0.311148 0.352409 0.458419 0.596268 0.675328 0.754331 0.819568...
+    0.967502 1.0084 1.12633 1.14177 1.22314 1.27472 1.36532 1.36472 1.4409...
+    1.45951 1.54083 1.56086 1.67104 1.69348 1.71603 1.83806 1.91416 2.05091...
+    2.0216 2.16574 2.2879 2.31896 2.38356 2.51869 2.5533 2.69837 2.81233...
+    2.93107 3.18419];
+pp=csaps(x,y);
+u_trans_phase=ppval(pp,abs(S21db))
+
+u_trans_phase =
+
+   0.796157710489573
+
+clc
+u_trans_phase=ppval(pp,abs(S21db))
+
+u_trans_phase =
+
+   0.796157710489573
+
+u_trans=u_trans_mag*exp(1j*deg2rad(u_trans_phase))
+
+u_trans =
+
+ -0.013020969213317 - 0.000180945479835i
+
+u_refl=u_refl_mag*exp(1j*deg2rad(u_refl_phase))
+
+u_refl =
+
+  0.010591955367075 + 0.000309013965987i
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+uniaxial_full
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Material is: white_honeycomb
+
+dmat =
+
+   0.006470000000000
+
+(in m)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
